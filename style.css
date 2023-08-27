@@ -1,11 +1,13 @@
 select {
-    width: 100px;
-    border-radius: 6px;
+    border-radius: 2px;
     height: 22px;
+    width: 200px;
+    background-color: #d3dada;
 }
 
 img {
     width: 200px;
+    height: 200px;
 
 }
 
@@ -16,9 +18,17 @@ body{
     align-content: space-around;
     background-color: rgb(72, 151, 151);
     color: white;
-}
+} 
 
 #info{
     color: #E1BEE7;
 
 }
+
+.resultado{
+    width: 100px;
+    height: 100px;
+}
+
+
+

@@ -12,8 +12,8 @@
 
     <div id="contenedor-jugador">
         <div>
-            <img id="img-usuario"src="https://images-na.ssl-images-amazon.com/images/I/61CD2t4VmDL.png" alt="">
-           
+            <img id="img-usuario" src="https://images-na.ssl-images-amazon.com/images/I/61CD2t4VmDL.png" alt="">
+
             <h1>Jugador</h1>
             <select onchange="elegir()" name="select" id="select">
                 <option value="-1">Seleccione</option>
@@ -22,18 +22,34 @@
                 <option value="2">Papel</option>
             </select>
         </div>
+        <div id="reiniciar">
+            <h1>Juego</h1>
+            <button hidden onclick="reiniciar()">Reiniciar</button>
+        </div>
     </div>
 
-        <div id="contenedor-maquina">
-            <img id="img-maquina" src="https://images-na.ssl-images-amazon.com/images/I/61CD2t4VmDL.png" alt="">
-            <h1>Maquina</h1>
-        </div>
+    <div id="contenedor-maquina">
+        <img id="img-maquina" src="https://images-na.ssl-images-amazon.com/images/I/61CD2t4VmDL.png" alt="">
+        <h1>Maquina</h1>
 
-   <div id="info">
-     <h1></h1>
-   </div>
-    
- 
+
+    </div>
+
+    <div id="info">
+        <h1></h1>
+       
+    </div>
+
+    <div id="info1">
+        <h1></h1>
+      
+    </div>
+    <div id="info2">
+        <h1></h1>
+       
+    </div>
+
+
 
 
     <script src="script.js"></script>
